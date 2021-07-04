@@ -19,15 +19,67 @@ section {
 
 .half-width {
   width: 50%;
-  padding-left: 5%;
   padding-top: 2%;
 }
 
 .half-width img {
   width: 60%;
-  padding-left: 30%;
+  padding-left: 15%;
+  padding-right: 10%;
 }
 
 .text {
-  padding: 6%;
+  padding: 10%;
+}
+
+.link-button {
+  padding-top: 10px;
+  text-decoration: 0;
+  padding: 10px 40px;
+  background-image: linear-gradient(to right, #7e99fe, #66b8fc);
+  color: white;
+  font-weight: 00;
+  border-radius: 2px;
+}
+
+.ptext {
+  margin-bottom: 30px;
+}
+
+.half-width2 img {
+  width: 80%;
+  padding-left: 17%;
+}
+
+.about-me {
+  margin-top: 5%;
+}
+.half-width1 {
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.center {
+  text-align: center;
+  width: 100%;
+  padding-top: 5%;
+}
+.half-width3 {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+.half-width4 {
+  width: 80%;
+
+  padding-right: 5%;
+}
+
+.half-width5 {
+  width: 80%;
+
+  padding-right: 10%;
+}
+.experience {
+  padding-top: 3%;
 }
