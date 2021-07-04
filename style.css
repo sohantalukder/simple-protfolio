@@ -11,10 +11,13 @@ h1 {
 
 .color {
   color: #14213d;
+  font-weight: 800;
 }
 
 section {
   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .half-width {
@@ -24,12 +27,14 @@ section {
 
 .half-width img {
   width: 60%;
-  padding-left: 15%;
-  padding-right: 10%;
+  padding-left: 40%;
+}
+#imgtag {
+  display: flex;
 }
 
 .text {
-  padding: 10%;
+  padding-top: 12%;
 }
 
 .link-button {
@@ -40,6 +45,10 @@ section {
   color: white;
   font-weight: 00;
   border-radius: 2px;
+  transition: 00.5s all;
+}
+.link-button:hover {
+  background-image: linear-gradient(to right, #08aeea, #80d0c7);
 }
 
 .ptext {
@@ -48,14 +57,12 @@ section {
 
 .half-width2 img {
   width: 80%;
-  padding-left: 17%;
 }
 
 .about-me {
   margin-top: 5%;
 }
 .half-width1 {
-  padding-right: 10%;
   padding-top: 5%;
   padding-left: 5%;
 }
@@ -65,21 +72,55 @@ section {
   padding-top: 5%;
 }
 .half-width3 {
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 5%;
+  width: 33.33%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-right: 10px;
+  box-shadow: 0px 2px 15px rgba(2, 48, 71, 0.3);
+  border-radius: 5px;
+  transition: 0.2s all;
+}
+
+.half-width5:hover {
+  box-shadow: 0px 2px 15px rgba(0, 150, 199, 0.5);
+  border-left: 7px solid #fd8264;
+}
+.half-width4:hover {
+  box-shadow: 0px 2px 15px rgba(0, 150, 199, 0.5);
+  border-left: 7px solid #fd8264;
+}
+.half-width3:hover {
+  box-shadow: 0px 2px 15px rgba(0, 150, 199, 0.5);
+  border-left: 7px solid #fd8264;
 }
 .half-width4 {
-  width: 80%;
-
-  padding-right: 5%;
+  width: 33.33%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  box-shadow: 0px 2px 15px rgba(2, 48, 71, 0.3);
+  border-radius: 5px;
+  transition: 0.2s all;
 }
 
 .half-width5 {
-  width: 80%;
-
-  padding-right: 10%;
+  width: 33.33%;
+  margin-bottom: 5%;
+  padding-left: 30px;
+  box-shadow: 0px 2px 15px rgba(2, 48, 71, 0.3);
+  border-radius: 5px;
+  transition: 0.2s all;
 }
 .experience {
   padding-top: 3%;
+}
+h2 {
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  font-weight: 500;
+  color: #555353;
 }
